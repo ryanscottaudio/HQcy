@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3544D31CD1BC81551C5792BD /* Pods_HQcy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3173CD473BFB27FE4E8D2529 /* Pods_HQcy.framework */; };
 		E7A874D11FFDC8BC00408DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A874D01FFDC8BC00408DF4 /* AppDelegate.swift */; };
 		E7A874D31FFDC8BC00408DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A874D21FFDC8BC00408DF4 /* ViewController.swift */; };
 		E7A874D61FFDC8BC00408DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A874D41FFDC8BC00408DF4 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3173CD473BFB27FE4E8D2529 /* Pods_HQcy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQcy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E735409E1FFDCF4D00DE13E6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A874CD1FFDC8BC00408DF4 /* HQcy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQcy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A874D01FFDC8BC00408DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A874D21FFDC8BC00408DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		E7A874D71FFDC8BC00408DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A874DA1FFDC8BC00408DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7A874DC1FFDC8BC00408DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FA10EF1FFDCD9B00CEC480 /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AA4B88533FC5F955E81D3E /* Pods-HQcy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQcy.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQcy/Pods-HQcy.release.xcconfig"; sourceTree = "<group>"; };
+		FFECB952659C272983166D19 /* Pods-HQcy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQcy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQcy/Pods-HQcy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3544D31CD1BC81551C5792BD /* Pods_HQcy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B248A5F2226B1BF6D8758E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFECB952659C272983166D19 /* Pods-HQcy.debug.xcconfig */,
+				F4AA4B88533FC5F955E81D3E /* Pods-HQcy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE2C296C105EA8DD92B4F1C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E735409E1FFDCF4D00DE13E6 /* FBSDKLoginKit.framework */,
+				E7FA10EF1FFDCD9B00CEC480 /* FacebookLogin.framework */,
+				3173CD473BFB27FE4E8D2529 /* Pods_HQcy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7A874C41FFDC8BC00408DF4 = {
 			isa = PBXGroup;
 			children = (
 				E7A874CF1FFDC8BC00408DF4 /* HQcy */,
 				E7A874CE1FFDC8BC00408DF4 /* Products */,
+				B248A5F2226B1BF6D8758E71 /* Pods */,
+				CE2C296C105EA8DD92B4F1C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7A874DF1FFDC8BC00408DF4 /* Build configuration list for PBXNativeTarget "HQcy" */;
 			buildPhases = (
+				FF5435D279C907CED5A2F288 /* [CP] Check Pods Manifest.lock */,
 				E7A874C91FFDC8BC00408DF4 /* Sources */,
 				E7A874CA1FFDC8BC00408DF4 /* Frameworks */,
 				E7A874CB1FFDC8BC00408DF4 /* Resources */,
+				61D0AEB2EBCCB9164B7F4435 /* [CP] Embed Pods Frameworks */,
+				91F1769B5A96BB002ACC0EC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +161,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61D0AEB2EBCCB9164B7F4435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQcy/Pods-HQcy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQcy/Pods-HQcy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F1769B5A96BB002ACC0EC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQcy/Pods-HQcy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5435D279C907CED5A2F288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQcy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7A874C91FFDC8BC00408DF4 /* Sources */ = {
@@ -217,6 +310,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -266,12 +360,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E7A874E01FFDC8BC00408DF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFECB952659C272983166D19 /* Pods-HQcy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +383,7 @@
 		};
 		E7A874E11FFDC8BC00408DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AA4B88533FC5F955E81D3E /* Pods-HQcy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
