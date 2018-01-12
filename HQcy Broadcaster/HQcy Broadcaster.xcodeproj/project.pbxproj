@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6F85329BCEC076B4769D7B /* Pods_HQcy_Broadcaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B3792BBA9E2D6FB000534 /* Pods_HQcy_Broadcaster.framework */; };
+		E7850400200065A60076AEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78503FF200065A60076AEE2 /* AppDelegate.swift */; };
+		E7850402200065A60076AEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7850401200065A60076AEE2 /* ViewController.swift */; };
+		E7850404200065A60076AEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7850403200065A60076AEE2 /* Assets.xcassets */; };
+		E7850407200065A60076AEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7850405200065A60076AEE2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		142955E1C0B4EB8F2A313F18 /* Pods-HQcy Broadcaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQcy Broadcaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQcy Broadcaster/Pods-HQcy Broadcaster.debug.xcconfig"; sourceTree = "<group>"; };
+		D823AADD6820DB7F267ED747 /* Pods-HQcy Broadcaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQcy Broadcaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQcy Broadcaster/Pods-HQcy Broadcaster.release.xcconfig"; sourceTree = "<group>"; };
+		E78503FC200065A60076AEE2 /* HQcy Broadcaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HQcy Broadcaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78503FF200065A60076AEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7850401200065A60076AEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7850403200065A60076AEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7850406200065A60076AEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7850408200065A60076AEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7850409200065A60076AEE2 /* HQcy_Broadcaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HQcy_Broadcaster.entitlements; sourceTree = "<group>"; };
+		FE8B3792BBA9E2D6FB000534 /* Pods_HQcy_Broadcaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQcy_Broadcaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78503F9200065A60076AEE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6F85329BCEC076B4769D7B /* Pods_HQcy_Broadcaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7D36385AB590079F7201FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8B3792BBA9E2D6FB000534 /* Pods_HQcy_Broadcaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E78503F3200065A60076AEE2 = {
+			isa = PBXGroup;
+			children = (
+				E78503FE200065A60076AEE2 /* HQcy Broadcaster */,
+				E78503FD200065A60076AEE2 /* Products */,
+				FB760CCBCB2D99A654816CA4 /* Pods */,
+				5E7D36385AB590079F7201FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E78503FD200065A60076AEE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78503FC200065A60076AEE2 /* HQcy Broadcaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78503FE200065A60076AEE2 /* HQcy Broadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				E78503FF200065A60076AEE2 /* AppDelegate.swift */,
+				E7850401200065A60076AEE2 /* ViewController.swift */,
+				E7850403200065A60076AEE2 /* Assets.xcassets */,
+				E7850405200065A60076AEE2 /* Main.storyboard */,
+				E7850408200065A60076AEE2 /* Info.plist */,
+				E7850409200065A60076AEE2 /* HQcy_Broadcaster.entitlements */,
+			);
+			path = "HQcy Broadcaster";
+			sourceTree = "<group>";
+		};
+		FB760CCBCB2D99A654816CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				142955E1C0B4EB8F2A313F18 /* Pods-HQcy Broadcaster.debug.xcconfig */,
+				D823AADD6820DB7F267ED747 /* Pods-HQcy Broadcaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78503FB200065A60076AEE2 /* HQcy Broadcaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E785040C200065A60076AEE2 /* Build configuration list for PBXNativeTarget "HQcy Broadcaster" */;
+			buildPhases = (
+				41F321ECB7FFFE3D656CA984 /* [CP] Check Pods Manifest.lock */,
+				E78503F8200065A60076AEE2 /* Sources */,
+				E78503F9200065A60076AEE2 /* Frameworks */,
+				E78503FA200065A60076AEE2 /* Resources */,
+				2D4F0D1963BE15AFFEB5B2C0 /* [CP] Embed Pods Frameworks */,
+				14A8CAE36129A98293525631 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HQcy Broadcaster";
+			productName = "HQcy Broadcaster";
+			productReference = E78503FC200065A60076AEE2 /* HQcy Broadcaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78503F4200065A60076AEE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ryan Campbell";
+				TargetAttributes = {
+					E78503FB200065A60076AEE2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E78503F7200065A60076AEE2 /* Build configuration list for PBXProject "HQcy Broadcaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78503F3200065A60076AEE2;
+			productRefGroup = E78503FD200065A60076AEE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78503FB200065A60076AEE2 /* HQcy Broadcaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78503FA200065A60076AEE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7850404200065A60076AEE2 /* Assets.xcassets in Resources */,
+				E7850407200065A60076AEE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A8CAE36129A98293525631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQcy Broadcaster/Pods-HQcy Broadcaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D4F0D1963BE15AFFEB5B2C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQcy Broadcaster/Pods-HQcy Broadcaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HaishinKit/HaishinKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Logboard/Logboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HaishinKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQcy Broadcaster/Pods-HQcy Broadcaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F321ECB7FFFE3D656CA984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQcy Broadcaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78503F8200065A60076AEE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7850402200065A60076AEE2 /* ViewController.swift in Sources */,
+				E7850400200065A60076AEE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7850405200065A60076AEE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7850406200065A60076AEE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E785040A200065A60076AEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E785040B200065A60076AEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E785040D200065A60076AEE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142955E1C0B4EB8F2A313F18 /* Pods-HQcy Broadcaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HQcy Broadcaster/HQcy_Broadcaster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28BQ99GP49;
+				INFOPLIST_FILE = "HQcy Broadcaster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan--n--Tao-LLC.HQcy-Broadcaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E785040E200065A60076AEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D823AADD6820DB7F267ED747 /* Pods-HQcy Broadcaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HQcy Broadcaster/HQcy_Broadcaster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28BQ99GP49;
+				INFOPLIST_FILE = "HQcy Broadcaster/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan--n--Tao-LLC.HQcy-Broadcaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78503F7200065A60076AEE2 /* Build configuration list for PBXProject "HQcy Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E785040A200065A60076AEE2 /* Debug */,
+				E785040B200065A60076AEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E785040C200065A60076AEE2 /* Build configuration list for PBXNativeTarget "HQcy Broadcaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E785040D200065A60076AEE2 /* Debug */,
+				E785040E200065A60076AEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E78503F4200065A60076AEE2 /* Project object */;
+}
