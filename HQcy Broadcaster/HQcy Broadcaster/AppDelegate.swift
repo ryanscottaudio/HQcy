@@ -8,6 +8,16 @@
 
 import Cocoa
 
+func setTimeout(_ seconds: Double, completion: @escaping () -> ()) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+        completion()
+    }
+}
+
+let socketUrl = "https://shrouded-oasis-46595.herokuapp.com/"
+let videoUrl = "rmtp://enigmatic-everglades-44073.herokuapp.com/live/"
+let streamName = "video"
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 

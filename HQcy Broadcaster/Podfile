@@ -3,5 +3,6 @@ platform :osx, '10.11'
 target 'HQcy Broadcaster' do
   use_frameworks!
 
-  pod 'HaishinKit', '~> 0.8.0'
+  pod 'Socket.IO-Client-Swift', '~> 13.1.0'
+  pod 'AppRTC'
 end
