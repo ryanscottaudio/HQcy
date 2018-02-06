@@ -28,6 +28,16 @@
 		E75B0741200BEF6F007FA45E /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E75B0740200BEF6F007FA45E /* libstdc++.6.tbd */; };
 		E75B0743200BEF72007FA45E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E75B0742200BEF72007FA45E /* libicucore.tbd */; };
 		E75B0745200BEF7A007FA45E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E75B0744200BEF7A007FA45E /* libc++.tbd */; };
+		E7BD29122027B4FE0075F126 /* ARDAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD28FE2027B4FD0075F126 /* ARDAppClient.m */; };
+		E7BD29132027B4FE0075F126 /* ARDMessageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD29012027B4FD0075F126 /* ARDMessageResponse.m */; };
+		E7BD29142027B4FE0075F126 /* RTCSessionDescription+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD29022027B4FD0075F126 /* RTCSessionDescription+JSON.m */; };
+		E7BD29152027B4FE0075F126 /* ARDWebSocketChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD29042027B4FD0075F126 /* ARDWebSocketChannel.m */; };
+		E7BD29162027B4FE0075F126 /* ARDSignalingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD29072027B4FD0075F126 /* ARDSignalingMessage.m */; };
+		E7BD29172027B4FE0075F126 /* RTCICECandidate+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD29082027B4FD0075F126 /* RTCICECandidate+JSON.m */; };
+		E7BD29182027B4FE0075F126 /* RTCICEServer+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD290B2027B4FD0075F126 /* RTCICEServer+JSON.m */; };
+		E7BD29192027B4FE0075F126 /* ARDRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD290C2027B4FE0075F126 /* ARDRegisterResponse.m */; };
+		E7BD291A2027B4FE0075F126 /* RTCMediaConstraints+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD290E2027B4FE0075F126 /* RTCMediaConstraints+JSON.m */; };
+		E7BD291B2027B4FE0075F126 /* ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD290F2027B4FE0075F126 /* ARDUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +67,26 @@
 		E75B0742200BEF72007FA45E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		E75B0744200BEF7A007FA45E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		E75B0746200BEFF8007FA45E /* AppRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppRTC.h; sourceTree = "<group>"; };
+		E7BD28FE2027B4FD0075F126 /* ARDAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDAppClient.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDAppClient.m"; sourceTree = "<group>"; };
+		E7BD28FF2027B4FD0075F126 /* ARDWebSocketChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDWebSocketChannel.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDWebSocketChannel.h"; sourceTree = "<group>"; };
+		E7BD29002027B4FD0075F126 /* ARDRegisterResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDRegisterResponse.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDRegisterResponse.h"; sourceTree = "<group>"; };
+		E7BD29012027B4FD0075F126 /* ARDMessageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDMessageResponse.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDMessageResponse.m"; sourceTree = "<group>"; };
+		E7BD29022027B4FD0075F126 /* RTCSessionDescription+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RTCSessionDescription+JSON.m"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCSessionDescription+JSON.m"; sourceTree = "<group>"; };
+		E7BD29032027B4FD0075F126 /* ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDUtilities.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDUtilities.h"; sourceTree = "<group>"; };
+		E7BD29042027B4FD0075F126 /* ARDWebSocketChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDWebSocketChannel.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDWebSocketChannel.m"; sourceTree = "<group>"; };
+		E7BD29052027B4FD0075F126 /* ARDAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDAppClient.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDAppClient.h"; sourceTree = "<group>"; };
+		E7BD29062027B4FD0075F126 /* ARDMessageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDMessageResponse.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDMessageResponse.h"; sourceTree = "<group>"; };
+		E7BD29072027B4FD0075F126 /* ARDSignalingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDSignalingMessage.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDSignalingMessage.m"; sourceTree = "<group>"; };
+		E7BD29082027B4FD0075F126 /* RTCICECandidate+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RTCICECandidate+JSON.m"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCICECandidate+JSON.m"; sourceTree = "<group>"; };
+		E7BD29092027B4FD0075F126 /* RTCICEServer+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RTCICEServer+JSON.h"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCICEServer+JSON.h"; sourceTree = "<group>"; };
+		E7BD290A2027B4FD0075F126 /* RTCICECandidate+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RTCICECandidate+JSON.h"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCICECandidate+JSON.h"; sourceTree = "<group>"; };
+		E7BD290B2027B4FD0075F126 /* RTCICEServer+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RTCICEServer+JSON.m"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCICEServer+JSON.m"; sourceTree = "<group>"; };
+		E7BD290C2027B4FE0075F126 /* ARDRegisterResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDRegisterResponse.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDRegisterResponse.m"; sourceTree = "<group>"; };
+		E7BD290D2027B4FE0075F126 /* ARDSignalingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARDSignalingMessage.h; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDSignalingMessage.h"; sourceTree = "<group>"; };
+		E7BD290E2027B4FE0075F126 /* RTCMediaConstraints+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RTCMediaConstraints+JSON.m"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCMediaConstraints+JSON.m"; sourceTree = "<group>"; };
+		E7BD290F2027B4FE0075F126 /* ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARDUtilities.m; path = "../../../../../Desktop/apprtc-ios-master/Lib/ARDUtilities.m"; sourceTree = "<group>"; };
+		E7BD29102027B4FE0075F126 /* RTCMediaConstraints+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RTCMediaConstraints+JSON.h"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCMediaConstraints+JSON.h"; sourceTree = "<group>"; };
+		E7BD29112027B4FE0075F126 /* RTCSessionDescription+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RTCSessionDescription+JSON.h"; path = "../../../../../Desktop/apprtc-ios-master/Lib/RTCSessionDescription+JSON.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +151,7 @@
 		E75B070A200BECD7007FA45E = {
 			isa = PBXGroup;
 			children = (
+				E7BD28712027AC170075F126 /* Lib */,
 				E75B0715200BECD7007FA45E /* HQcy Broadcaster (iOS) */,
 				E75B0714200BECD7007FA45E /* Products */,
 				C51032DBB5654D9BF6FE7D50 /* Pods */,
@@ -148,6 +179,33 @@
 				E75B0722200BECD7007FA45E /* Info.plist */,
 			);
 			path = "HQcy Broadcaster (iOS)";
+			sourceTree = "<group>";
+		};
+		E7BD28712027AC170075F126 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E7BD29052027B4FD0075F126 /* ARDAppClient.h */,
+				E7BD28FE2027B4FD0075F126 /* ARDAppClient.m */,
+				E7BD29062027B4FD0075F126 /* ARDMessageResponse.h */,
+				E7BD29012027B4FD0075F126 /* ARDMessageResponse.m */,
+				E7BD29002027B4FD0075F126 /* ARDRegisterResponse.h */,
+				E7BD290C2027B4FE0075F126 /* ARDRegisterResponse.m */,
+				E7BD290D2027B4FE0075F126 /* ARDSignalingMessage.h */,
+				E7BD29072027B4FD0075F126 /* ARDSignalingMessage.m */,
+				E7BD29032027B4FD0075F126 /* ARDUtilities.h */,
+				E7BD290F2027B4FE0075F126 /* ARDUtilities.m */,
+				E7BD28FF2027B4FD0075F126 /* ARDWebSocketChannel.h */,
+				E7BD29042027B4FD0075F126 /* ARDWebSocketChannel.m */,
+				E7BD290A2027B4FD0075F126 /* RTCICECandidate+JSON.h */,
+				E7BD29082027B4FD0075F126 /* RTCICECandidate+JSON.m */,
+				E7BD29092027B4FD0075F126 /* RTCICEServer+JSON.h */,
+				E7BD290B2027B4FD0075F126 /* RTCICEServer+JSON.m */,
+				E7BD29102027B4FE0075F126 /* RTCMediaConstraints+JSON.h */,
+				E7BD290E2027B4FE0075F126 /* RTCMediaConstraints+JSON.m */,
+				E7BD29112027B4FE0075F126 /* RTCSessionDescription+JSON.h */,
+				E7BD29022027B4FD0075F126 /* RTCSessionDescription+JSON.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,12 +304,14 @@
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${PODS_ROOT}/WebRTC/WebRTC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -283,7 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BD29122027B4FE0075F126 /* ARDAppClient.m in Sources */,
+				E7BD29152027B4FE0075F126 /* ARDWebSocketChannel.m in Sources */,
+				E7BD291A2027B4FE0075F126 /* RTCMediaConstraints+JSON.m in Sources */,
+				E7BD29162027B4FE0075F126 /* ARDSignalingMessage.m in Sources */,
+				E7BD291B2027B4FE0075F126 /* ARDUtilities.m in Sources */,
+				E7BD29142027B4FE0075F126 /* RTCSessionDescription+JSON.m in Sources */,
 				E75B0719200BECD7007FA45E /* ViewController.swift in Sources */,
+				E7BD29192027B4FE0075F126 /* ARDRegisterResponse.m in Sources */,
+				E7BD29172027B4FE0075F126 /* RTCICECandidate+JSON.m in Sources */,
+				E7BD29132027B4FE0075F126 /* ARDMessageResponse.m in Sources */,
+				E7BD29182027B4FE0075F126 /* RTCICEServer+JSON.m in Sources */,
 				E75B0717200BECD7007FA45E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

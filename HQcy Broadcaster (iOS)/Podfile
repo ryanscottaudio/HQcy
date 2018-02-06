@@ -1,13 +1,10 @@
 platform :ios, '9.0'
 
-pre_install do |installer|
-    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
-end
-
 target 'HQcy Broadcaster (iOS)' do
   use_frameworks!
 
   pod 'Socket.IO-Client-Swift', '~> 13.1.0'
   pod 'libjingle_peerconnection'
   pod 'SocketRocket'
+  pod 'WebRTC'
 end

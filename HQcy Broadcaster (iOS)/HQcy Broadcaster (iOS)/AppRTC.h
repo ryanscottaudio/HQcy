@@ -13,4 +13,4 @@
 #import "ARDAppClient.h"
 #import "RTCPeerConnectionFactory.h"
 
-#endif /* AppRTC_h */
+#endif
